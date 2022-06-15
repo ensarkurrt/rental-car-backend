@@ -1,0 +1,12 @@
+D:\GithupRepository\GoldenCar\Core\bin\Debug\net5.0\Core.deps.json
+D:\GithupRepository\GoldenCar\Core\bin\Debug\net5.0\Core.dll
+D:\GithupRepository\GoldenCar\Core\bin\Debug\net5.0\Core.pdb
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\Core.dll
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\ref\Core.dll
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\Core.pdb
+D:\GithupRepository\GoldenCar\Core\obj\Debug\net5.0\refint\Core.dll

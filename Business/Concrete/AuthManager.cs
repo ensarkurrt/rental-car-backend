@@ -37,6 +37,7 @@ namespace Business.Concrete
                 Status = true
             };
             _userService.Add(user);
+            
             return new SuccessDataResult<User>(user, Messages.UserRegistered);
         }
 

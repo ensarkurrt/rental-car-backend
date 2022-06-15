@@ -287,5 +287,22 @@ namespace DataAccess.Migrations
                 });
 #pragma warning restore 612, 618
         }
+
+        /* Seeder */        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity("Core.Entities.Concrete.OperationClaim").HasData(
+                new OperationClaim
+                {
+                    Id = 1,
+                    Name = "admin",
+                },
+                new OperationClaim
+                {
+                    Id = 2,
+                    Name = "customer",
+                },
+            );
+        }
     }
 }

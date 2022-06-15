@@ -15,10 +15,12 @@ namespace Business.Concrete
     public class UserManager : IUserService
     {
         private readonly IUserDal _userDal;
+        private readonly IUserOperatinClaimDal _operationDal;
 
         public UserManager(IUserDal userDal)
         {
             _userDal = userDal;
+            _operationDal = new IUserOperatinClaimDal();
         }
 
         public IDataResult<List<User>> GetAll()
@@ -57,6 +59,7 @@ namespace Business.Concrete
             }
 
             _userDal.Add(user);
+            
             return new SuccessResult(Messages.UserAdded);
         }
 

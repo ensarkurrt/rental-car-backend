@@ -10,6 +10,7 @@ namespace WebAPI.Controllers
     public class AuthController : Controller
     {
         private IAuthService _authService;
+        
 
         public AuthController(IAuthService authService)
         {
@@ -44,6 +45,14 @@ namespace WebAPI.Controllers
             }
 
             var registerResult = _authService.Register(userForRegisterDto, userForRegisterDto.Password);
+
+            var operation = new UserOperationClaim {
+                UserId = registerResult.Id,
+                OperationClaimId = 2,
+            };
+
+            IUserOperatinClaimDal().Add(operation);
+            
             var result = _authService.CreateAccessToken(registerResult.Data);
             if (result.Success)
             {
